@@ -11,6 +11,8 @@ The PCB is structured into four primary subsystems:
 4. CAN communication and physical layer integration
 
 The design uses the ESP32 as the controller with an onboard CAN transceiver to interface with a distributed industrial network.
+![Board Features – System Architecture](images/Board_Features.png)
+<sub>Figure: Annotated top-view showing subsystems of the CAN node PCB</sub>
 
 ## Signal Conditioning and Interface Design
 
@@ -39,8 +41,11 @@ CAN functionality was validated using the TJA1051T transceiver, communicating wi
 ## Repository Contents
 
 This repository contains:
+Images folder with the following content:- 
 - PCB layout image
-- Assembled board image
+- 3D View of the board
+
+A folder with an image specifying the features of the board
 
 It does **not** contain:
 - Schematic source files
