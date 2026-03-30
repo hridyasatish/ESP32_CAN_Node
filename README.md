@@ -24,7 +24,7 @@ Key considerations during layout:
 - Controlled routing for CAN differential pair
 - Thermal considerations for power components
 
-![PCB Layout](Images/PCBLayout.png)
+![PCB Layout](PCBLayout.png)
 
 
 ## Signal Conditioning and Interface Design
