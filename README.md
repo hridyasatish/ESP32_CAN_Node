@@ -13,6 +13,19 @@ The PCB is structured into four primary subsystems:
 The design uses the ESP32 as the controller with an onboard CAN transceiver to interface with a distributed industrial network.
 ![Board Features](Board_Features.png)
 
+## PCB Layout
+
+The final PCB layout was designed in KiCad with careful attention to signal integrity, grounding, and power distribution.
+
+Key considerations during layout:
+- Separation of high-voltage (24 V) and low-voltage (3.3 V) domains
+- Proper grounding strategy to minimize noise coupling
+- Short trace routing for analog signal paths
+- Controlled routing for CAN differential pair
+- Thermal considerations for power components
+
+![PCB Layout](Images/pcb_layout.png)
+
 
 ## Signal Conditioning and Interface Design
 
